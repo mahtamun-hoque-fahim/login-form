@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis';
+}
+.formdiv{
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.formbox{
+    width: 400px;
+    height: 420px;
+    position: relative;
+    margin: 15% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    box-shadow: 0px 0px 20px 5px #cacaca;
+}
+.buttons{
+    position: relative;
+    width: 200px;
+    margin: 40px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 4px #3EB1FA;
+}
+
+.formbtn{
+    position: relative;
+    border: 0;
+    outline: none;
+    padding: 15px 24px;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+#btndesign{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(to right,#3D76F3,#40FAFF);
+    transition: .5s;
+}
+
+.form-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+#regform{
+    top: 100px;
+}
+
+.input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #3D76F3;
+    outline: none;
+    background: transparent;
+}
+
+.select{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #3EB1FA;
+    outline: none;
+    background: transparent;
+    color: purple;
+    font-weight: bold;
+}
+
+.btn-login-reg{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    background: linear-gradient(to right, #029eff,#40FAFF );
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.btn-login-reg:hover{
+    box-shadow: 0px 0px 10px #b6b6b6;
+}
+
+#regform{
+    left: 500px;
+}
+
+#loginform{
+    left: 65px;
+}
+
+.social-media{
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon{
+    height: 46px;
+    width: 46px;
+    border: 1px solid #3D76F3;
+    color: #3EB1FA;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.social-icon:hover{
+    color: #40FAFF;
+    border-color: #3EB1FA;
+    box-shadow: 5px 5px 40px 0px #3D76F3;
+    transform: scale(1.3);
+}
+
+@media(max-width: 858px){
+    .formbox{
+        width: 350px;
+        height: 420px;
+        position: relative;
+        margin: 15% auto;
+        padding: 5px;
+        overflow: hidden;
+        border-bottom-right-radius: 70px;
+        border-top-left-radius: 70px;
+    }
+
+    .formdiv{
+        max-height: 920px;
+    }
+
+    #loginform{
+        left: 30px;
+    }
+
+    #regfrom{
+        left: 400px;
+    }
+}
+
+
+

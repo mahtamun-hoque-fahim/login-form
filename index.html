@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <!-- fontawsome  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- my css  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div class="formdiv">
+
+        <div class="formbox">
+            <div class="buttons">
+                <div id="btndesign"></div>
+                <button type="submit" class="formbtn" onclick="rgform()">Sign in</button>
+                <button type="submit" class="formbtn" onclick="logform()">Sign up</button>
+
+
+            </div>
+
+            <form action="" class="form-group" id="loginform">
+                <input type="text" class="input" placeholder="Username" required>
+                <input type="password" class="input" placeholder="Password" required>
+                <button type="submit" class="btn-login-reg">Sign in</button>
+
+
+
+            </form>
+
+            <form action="" class="form-group" id="regform">
+
+                <input type="text" class="input" placeholder="Username" required>
+                <input type="email" class="input" placeholder="Email" required>
+                <input type="password" class="input" placeholder="Password" required>
+                <select class="select">
+                    <option value="0">Where did you find us?</option>
+                    <option value="Google">Google</option>
+                    <option value="Bing">Bing</option>
+                    <option value="Yahoo">Yahoo</option>
+                </select>
+                <button type="submit" class="btn-login-reg">Sign up</button>
+            </form>
+
+
+
+
+            <div class="social-media">
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="style.js"></script>
+</body>
+
+</html>
